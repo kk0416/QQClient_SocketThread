@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChatWin1</class>
+ <widget class="QWidget" name="ChatWin1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>862</width>
+    <height>572</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>256</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>1001</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Waree</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../QQChatClient_t/img/1003.jpg</normaloff>../QQChatClient_t/img/1003.jpg</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1002</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Waree</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../QQChatClient_t/img/1002.jpg</normaloff>../QQChatClient_t/img/1002.jpg</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1003</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Waree</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../QQChatClient_t/img/1001.jpg</normaloff>../QQChatClient_t/img/1001.jpg</iconset>
+    </property>
+   </item>
+  </widget>
+  <widget class="QTextEdit" name="EditShowmsg">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>10</y>
+     <width>421</width>
+     <height>351</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="EditSendmsg">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>370</y>
+     <width>421</width>
+     <height>171</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BtnSendmsg">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>500</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
